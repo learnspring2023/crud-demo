@@ -10,7 +10,7 @@ docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=a@b.com 
 
 H2: http://localhost:8080/h2-console  
 Postgres: http://localhost:5050/
-
+```
 pom.xml --> postgres  
 		<dependency>  
 		  <groupId>org.postgresql</groupId>  
@@ -36,7 +36,7 @@ spring.datasource.url=jdbc:h2:mem:testdb
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect  
 spring.datasource.username=sa  
 spring.datasource.password=  
-
+```
 #common properties  
 spring.jpa.show-sql=true  
 spring.jpa.hibernate.ddl-auto=update  
